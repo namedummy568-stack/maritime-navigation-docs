@@ -1,0 +1,14 @@
+## System Log Analysis - Sample Entries
+
+This file contains sample log entries for analyzing system behavior and identifying anomalies.
+
+```
+[2025-09-18 10:00:01] INFO: GPS_MODULE - Satellite lock acquired (12 satellites)
+[2025-09-18 10:00:05] DEBUG: GPS_MODULE - Current coordinates: Lat 34.0522, Lon -118.2437, Alt 10.5m
+[2025-09-18 10:00:10] WARNING: NAVIGATION_SYSTEM - Minor drift detected in position (0.5m offset)
+[2025-09-18 10:00:15] INFO: GPS_MODULE - Satellite lock acquired (10 satellites)
+[2025-09-18 10:00:20] DEBUG: GPS_MODULE - Current coordinates: Lat 34.0523, Lon -118.2436, Alt 10.6m
+[2025-09-18 10:00:25] ERROR: GPS_MODULE - Signal strength degraded, potential interference
+[2025-09-18 10:00:30] WARNING: NAVIGATION_SYSTEM - Significant drift detected in position (2.1m offset)
+[2025-09-18 10:00:35] INFO: SYSTEM - Initiating diagnostic sequence for GPS module.
+```
